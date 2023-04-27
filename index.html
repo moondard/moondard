@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class="screen_1">
-        <div class="girl__1"> <img src="img/girl1.png" height="800px" alt="girl1"></div>
-        <div class="symbol"> <img src="img/symbol.png" height="280px" alt="logo"></div>
+        <div class="girl__1"> <img src="img/girl1.png" height="800px" alt="girl1" class="girl__1"></div>
+        <div class="symbol"> <img src="img/symbol.png" height="280px" alt="logo" class="symbol"></div>
         <div class="email">
             <img src="img/closebtn.svg" class="close_button">
             <p class="email__text1">Stay in the loop</p>
             <p class="email__text2">Sign-up to be the first to <br>hear about new products, <br>sales and more!</p>
             <form method="get" class="email__form">
-                email&ensp;<input type="email" value="" name="user_email" class="email__user">
+                <input type="email" value="" name="user_email" class="email__user" placeholder="email">
                 <input type="submit" value="submit" class="email__submit">
             </form>
             <div class="email__strip"></div>
         </div>
         <div class="text1">Design-driven <br>audio & storage</div>
-        <div class="text2">Our vinyl storage & audio collections are <br>designed to fit comfortably in your home <br>like real furniture.
-            Built by hand with <br>sustainable materials; wearing in, never <br>wearing out.</div>
+        <div class="text2">Our vinyl storage & audio collections are designed to fit comfortably in your home like real furniture.
+            Built by hand with sustainable materials; wearing in, never wearing out.</div>
         <div class="text3">Shop Now</div>
         <div class="header--buttons">
             <div class="shop_button">Shop</div>
@@ -33,9 +33,9 @@
         </div>
     </div>
     <div class="screen_2">
-        <div class="intro_text">Your audio storage should look as good as your music sounds. Our vision is <br>
-            to bring renewed quality and soul to furniture design, creating products that <br>
-            provide generational value and are loved for both the solutions they create <br>
+        <div class="intro_text">Your audio storage should look as good as your music sounds. Our vision is
+            to bring renewed quality and soul to furniture design, creating products that
+            provide generational value and are loved for both the solutions they create
             and the experiences they enable.</div>
     </div>
     <div class="screen_3">
@@ -43,7 +43,7 @@
     </div>
     <div class="screen_4">
         <div class="vinyl">
-            <img src="img/vinyl.png">
+            <img src="img/vinyl.png" style="object-fit: cover; width: 100%; height: 100%;">
             <p class="text_on_img">Vinyl Storage</p>
             <div class="vinyl_text">
                 <p>Vinyl <br>Storage</p>
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="sonos">
-            <img src="img/sonos.png">
+            <img src="img/sonos.png" style="object-fit: cover; width: 100%; height: 100%;">
             <p class="text_on_img">Made for Sonos</p>
             <div class="sonos_text">
                 <p>Made for <br>Sonos</p>
@@ -68,7 +68,7 @@
     </div>
     <div class="screen_5">
         <div class="console">
-            <img src="img/console.png">
+            <img src="img/console.png" style="object-fit: cover; width: 100%; height: 100%;">
             <p class="text_on_img">Modern Record Console</p>
             <div class="console_text">
                 <p>Modern Record <br>Console</p>
@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="mcintosh">
-            <img src="img/mcintosh.png">
+            <img src="img/mcintosh.png" style="object-fit: cover; width: 100%; height: 100%;">
             <p class="text_on_img">McIntosh x Symbol</p>
             <div class="mcintosh_text">
                 <p>McIntosh x <br>Symbol</p>
@@ -99,7 +99,7 @@
     <div class="screen_6">
         <div class="shop_all">shop all</div>
         <div class="audio">
-            <img src="img/audio.png">
+            <img src="img/audio.png" style="object-fit: cover; width: 100%; height: 100%;">
             <p class="text_on_img">Audio Packages</p>
             <div class="audio_text">
                 <p>Audio Packages</p>
@@ -114,7 +114,7 @@
     </div>
     <div class="screen_7">
         <p class="just_text">Shop by Line</p>
-        <img src="img/shopbyline.png" style="margin: 20px; float: right">
+        <div class="shopbyline_img"><img src="img/shopbyline.png" class="shopbyline_img"></div>
     </div>
     <div class="screen_8">
         <p class="dovetail">The Dovetail Collection</p>
@@ -124,37 +124,79 @@
         <p class="bestsellers">Bestsellers</p>
         <div class="round_bestsellers">Shop Bestsellers</div>
         <div class="bestsellers_photos1">
-            <div style="margin: 20px 10px 20px 20px;">
-                <img src="img/best1.png">
+            <div style="margin-left: 10px;">
+                <img src="img/best1.png" class="best1">
                 <p class="photo_caption">MAX Turntable Stand <br>from $795</p>
             </div>
-            <div style="margin: 20px 10px 20px 10px;">
-                <img src="img/best2.png">
+            <div style="margin-right: 10px;" >
+                <img src="img/best2.png" class="best2">
                 <p class="photo_caption">Dovetail Record Crate <br>from $199</p>
             </div>
-            <div style="margin: 20px 20px 20px 10px">
-                <img src="img/best3.png">
+            <div style="margin-left: 10px;">
+                <img src="img/best3.png" class="best3">
                 <p class="photo_caption">Unison 38″ Record Stand <br>from $2,595</p>
             </div>
-        </div>
-        <div class="bestsellers_photos2">
-            <div style="margin: 0 10px 20px 20px;">
-                <img src="img/best4.png">
+            <div style="margin-right: 10px;">
+                <img src="img/best4.png" class="best4">
                 <p class="photo_caption">Dovetail 3 × 2.5 Storage Cabinet <br>from $5,850</p>
             </div>
-            <div style="margin: 0 10px 20px 10px;">
-                <img src="img/best5.png">
+            <div style="margin-left: 10px;">
+                <img src="img/best5.png" class="best5">
                 <p class="photo_caption">Aero 51" LP Console <br>from $3,190</p>
             </div>
-            <div style="margin: 0 10px 20px 10px;">
-                <img src="img/best6.png">
+            <div style="margin-right: 10px;">
+                <img src="img/best6.png" class="best6">
                 <p class="photo_caption">Luxe 2-Bay Record Stand <br>from $2,295</p>
             </div>
-            <div style="margin: 0 20px 20px 10px;">
-                <img src="img/best7.png">
+            <div style="margin-left: 10px;">
+                <img src="img/best7.png" class="best7">
                 <p class="photo_caption">MAX Record Stand <br>from $775</p>
             </div>
         </div>
+    </div>
+    <div class="screen_10">
+        <div class="press">Press</div>
+        <div class="gizmodo">Architectural Digest<br>- Gizmodo<br>Interior Design</div>
+        <div class="gizmodo_quote">"…makes music look as <br>beautiful as it sounds"</div>
+    </div>
+    <div class="screen_11">
+        <div class="future"><img src="img/future.png" class="future_img"></div>
+        <div class="sustainability">Sustainability</div>
+        <div class="sustainability_text">We strive to lighten the furniture footprint on the planet and take new responsibility in <br>
+            the process with a fully local approach to design and manufacturing. All of our <br>
+            furniture is built with FSC Certified Domestic hardwoods, and other sustainably-<br>
+            sourced materials. 90% of which are grown and harvested within 70 miles of our <br>
+            production facility.</div>
+        <div class="learn_more">Learn more</div>
+    </div>
+    <div class="screen_12">
+        <div class="last_box">
+            <div><img src="img/last1.png" class="last1"></div>
+            <div><img src="img/last2.png" class="last2"></div>
+            <div><img src="img/last3.png" class="last3"></div>
+            <div><img src="img/last4.png" class="last4"></div>
+            <div><img src="img/last5.png" class="last5"></div>
+            <div><img src="img/last6.png" class="last6"></div>
+            <div><img src="img/last7.png" class="last7"></div>
+            <div><img src="img/last8.png" class="last8"></div>
+        </div>
+        <div class="last_strip"></div>
+        <div class="sign_up">sign up for our newsletter</div>
+        <div class="submit">submit</div>
+        <div class="logo"><img src="img/logo.png"></div>
+        <div class="info_box_1">
+            <div>materials</div>
+            <div>about</div>
+            <div>contact</div>
+            <div>faq</div>
+        </div>
+        <div class="info_box_2">
+            <div>instagram</div>
+            <div>facebook</div>
+            <div>privacy policy</div>
+            <div>terms & conditions</div>
+        </div>
+        <div class="copyright">Copyright 2023 Symbol Audio.</div>
     </div>
 <script src="js/main.js"></script>
 </body>
