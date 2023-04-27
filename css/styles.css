@@ -99,12 +99,19 @@
     .email__form {
         position: absolute;
         bottom: 10px;
-        left: 35px;
+        left: 25px;
         font-family: Roboto, Serif, serif;
         font-size: 34px;
         color: #FFFCDA;
     }
-
+    input::placeholder {
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+    }
+    input[type="email"] {
+        width: 435px;
+    }
     .email__user {
         border: 0;
         background-color: transparent;
@@ -118,7 +125,7 @@
         font-size: 34px;
         text-align: right;
         color: #FFFCDA;
-        margin: 10px;
+        margin-bottom: 10px;
         border: 0;
         background-color: transparent;
     }
@@ -142,6 +149,7 @@
         position: absolute;
         bottom: 80px;
         left: 315px;
+        width: 270px;
     }
 
     .text3 {
@@ -301,6 +309,11 @@
         font-size: 35px;
         color: #E5B0A3;
     }
+    .shopbyline_img{
+        width: 472px;
+        margin: 20px;
+        float: right;
+    }
     .screen_8{
         position: relative;
         width: 1200px;
@@ -380,5 +393,773 @@
         font-family: Roboto, Serif, serif;
         font-size: 15px;
         color: #447CF0;
+    }
+    .screen_10{
+        position: relative;
+        width: 1200px;
+        height: 680px;
+        background-color: #1C3C27;
+        margin: 0 auto;
+    }
+    .press{
+        position: absolute;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 31px;
+        color: #FFFCDA;
+    }
+    .gizmodo{
+        position: absolute;
+        left: 610px;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+    }
+    .gizmodo_quote{
+        position: absolute;
+        bottom: 0;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 70px;
+        color: #FFFCDA;
+    }
+    .screen_11{
+        position: relative;
+        width: 1200px;
+        height: 670px;
+        background-color: #447CF0;
+        margin: 0 auto;
+    }
+    .future{
+        position: absolute;
+    }
+    .sustainability{
+        position: absolute;
+        left: 590px;
+        top: 0;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 20px;
+        color: #DFE2E5;
+    }
+    .sustainability_text{
+        position: absolute;
+        left: 590px;
+        top: 40px;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #DFE2E5;
+    }
+    .learn_more{
+        position: absolute;
+        left: 590px;
+        bottom: 0;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #DFE2E5;
+        border-bottom: 1px solid #DFE2E5;
+    }
+    .screen_12{
+        position: relative;
+        width: 1200px;
+        height: 760px;
+        background-color: #C72A00;
+        margin: 0 auto;
+    }
+    .last_box{
+        position: absolute;
+        margin-top: 20px;
+        width: 1200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .last_strip {
+        background-color: #FFFCDA;
+        width: 1160px;
+        height: 1px;
+        position: absolute;
+        bottom: 165px;
+        margin: 20px;
+    }
+    .sign_up{
+        position: absolute;
+        bottom: 175px;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+    }
+    .submit{
+        position: absolute;
+        right: 0;
+        bottom: 175px;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+    }
+    .logo{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+    }
+    .info_box_1{
+        position: absolute;
+        left: 807px;
+        bottom: 90px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+    .info_box_2{
+        position: absolute;
+        left: 1003px;
+        bottom: 90px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+    .copyright{
+        position: absolute;
+        left: 807px;
+        bottom: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    .screen_1 {
+        position: relative;
+        width: 100%;
+        height: 844px;
+        margin: 0 auto;
+    }
+    .header--buttons {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto, Serif, serif;
+        font-size: 14px;
+        color: #C72A00;
+        z-index: 2;
+    }
+
+    .shop_button {
+        margin: 25px 15px 20px 0;
+    }
+
+    .learn_button {
+        margin: 25px 15px 20px 15px;
+    }
+
+    .support_button {
+        margin: 25px 15px 20px 15px;
+    }
+
+    .about_us_button {
+        margin: 25px 0 20px 15px;
+    }
+    .symbol {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 105px;
+        width: 340px;
+        z-index: 3;
+    }
+
+    .girl__1 {
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        width: 100%;
+        height: 844px;
+        object-fit: cover;
+    }
+
+    .email {
+        position: absolute;
+        right: 0;
+        top: 270px;
+        width: 342px;
+        height: 305px;
+        background-color: #B4A139;
+        z-index: 2;
+    }
+
+    .close_button {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+
+    .email__text1 {
+        font-family: Roboto, Serif, serif;
+        font-size: 38px;
+        text-align: left;
+        color: #FFFCDA;
+        margin: 20px;
+    }
+
+    .email__text2 {
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        text-align: left;
+        color: #FFFCDA;
+        margin: 20px;
+    }
+
+    .email__strip {
+        background-color: #FFFCDA;
+        width: 302px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        margin: 0 20px 40px 20px;
+    }
+
+    .email__form {
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+    }
+    input::placeholder {
+        font-family: Roboto, Serif, serif;
+        font-size: 24px;
+        color: #FFFCDA;
+    }
+    .email__user {
+        border: 0;
+        background-color: transparent;
+        font-family: Roboto, Serif, serif;
+        font-size: 25px;
+        color: #FFFCDA;
+    }
+
+    .email__submit {
+        font-family: Roboto, Serif, serif;
+        font-size: 25px;
+        text-align: right;
+        color: #FFFCDA;
+        position: absolute;
+        left: 217px;
+        margin: 8px;
+        border: 0;
+        background-color: transparent;
+        z-index: 5;
+    }
+    input[type="email"] {
+        width: 220px;
+    }
+
+    .text1 {
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        text-align: left;
+        color: #C72A00;
+        margin: 15px;
+        position: absolute;
+        bottom: 140px;
+        z-index: 2;
+    }
+
+    .text2 {
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        text-align: left;
+        color: #C72A00;
+        margin: 15px;
+        width: 185px;
+        height: 160px;
+        position: absolute;
+        z-index: 2;
+        bottom: 17px;
+        left: 190px;
+    }
+
+    .text3 {
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        text-align: left;
+        color: #C72A00;
+        margin: 15px 15px 15px 12px;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid #C72A00;
+    }
+
+    .screen_2 {
+        position: relative;
+        width: 100%;
+        height: 140px;
+        background-color: #FFFCDA;
+        margin: 0 auto;
+    }
+
+    .intro_text {
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        color: #C72A00;
+        text-align: justify;
+        position: absolute;
+        margin: 10px;
+    }
+
+    .screen_3 {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background-color: #FFFCDA;
+        margin: 0 auto;
+    }
+
+    .collection {
+        font-family: Roboto, Serif, serif;
+        font-size: 60px;
+        color: #C72A00;
+        text-align: center;
+    }
+
+    .screen_4 {
+        position: relative;
+        width: 100%;
+        height: 1150px;
+        background-color: #FFFCDA;
+        margin: 0 auto;
+    }
+
+    .vinyl {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 10px;
+        width: 293px;
+    }
+    .vinyl_text{
+        display: flex;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #C72A00;
+    }
+    .sonos {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        width: 293px;
+    }
+    .sonos_text{
+        display: flex;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #C72A00;
+    }
+    .text_on_img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        font-family: Roboto, Serif, serif;
+        font-size: 16px;
+        color: #C72A00;
+    }
+    .screen_5 {
+        position: relative;
+        width: 100%;
+        height: 1220px;
+        background-color: #FFFCDA;
+        margin: 0 auto;
+    }
+    .console {
+        position: absolute;
+        margin: 10px;
+        width: 293px;
+    }
+    .console_text{
+        display: flex;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #C72A00;
+    }
+    .mcintosh {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        width: 293px;
+    }
+    .mcintosh_text{
+        display: flex;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #C72A00;
+    }
+    .screen_6 {
+        position: relative;
+        width: 100%;
+        height: 603px;
+        background-color: #FFFCDA;
+        margin: 0 auto;
+    }
+
+    .audio {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 10px;
+        width: 293px;
+    }
+    .audio_text{
+        display: flex;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #C72A00;
+    }
+    .shop_all {
+        font-family: Roboto, Serif, serif;
+        font-size: 75px;
+        color: #C72A00;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        margin: 10px;
+    }
+    .screen_7 {
+        position: relative;
+        width: 100%;
+        height: 960px;
+        background-color: #420B13;
+        margin: 0 auto;
+    }
+    .just_text{
+        position: absolute;
+        margin: 10px;
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        color: #E5B0A3;
+    }
+    .shopbyline_img{
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 340px;
+    }
+    .screen_8{
+        position: relative;
+        width: 100%;
+        height: 230px;
+        background-image: url(../img/girl2.png);
+        background-size:100% 100% ;
+        margin: 0 auto;
+    }
+    .shop_now{
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        color: #FFFCDA;
+        margin: 0 0 20px 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid #FFFCDA;
+    }
+    .dovetail{
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        color: #FFFCDA;
+        margin: 0 0 20px 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+    }
+    .screen_9{
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        background-color: #DFE2E5;
+        margin: 0 auto;
+    }
+    .bestsellers{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 10px;
+        font-family: Roboto, Serif, serif;
+        font-size: 33px;
+        color: #447CF0;
+    }
+    .round_bestsellers{
+        position: absolute;
+        top: 45px;
+        left: 0;
+        margin: 10px;
+        width: 170px;
+        height: 18px;
+        background-color: #447CF0;
+        box-sizing: border-box;
+        text-align: left;
+        padding-left: 15px;
+        border-radius: 40px;
+        font-family: Roboto, Serif, serif;
+        font-size: 14px;
+        color: #DFE2E5;
+    }
+    .bestsellers_photos1{
+        position: absolute;
+        left: 0;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .photo_caption{
+        margin: 0;
+        text-align: center;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #447CF0;
+        width: 170px;
+    }
+    .best1{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best2{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best3{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best4{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best5{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best6{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .best7{
+        width: auto;
+        height: auto;
+        max-width: 170px;
+    }
+    .screen_10{
+        position: relative;
+        width: 100%;
+        height: 720px;
+        background-color: #1C3C27;
+        margin: 0 auto;
+    }
+    .press{
+        position: absolute;
+        margin: 10px;
+        font-family: Roboto, Serif, serif;
+        font-size: 31px;
+        color: #FFFCDA;
+    }
+    .gizmodo{
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+    .gizmodo_quote{
+        position: absolute;
+        bottom: 0;
+        margin: 10px;
+        font-family: Roboto, Serif, serif;
+        font-size: 60px;
+        color: #FFFCDA;
+    }
+    .screen_11{
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background-color: #447CF0;
+        margin: 0 auto;
+    }
+    .future{
+        position: absolute;
+    }
+    .future_img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    .sustainability{
+        position: absolute;
+        left: 0;
+        bottom: 210px;
+        margin: 18px;
+        font-family: Roboto, Serif, serif;
+        font-size: 20px;
+        color: #DFE2E5;
+    }
+    .sustainability_text{
+        position: absolute;
+        left: 0;
+        bottom: 45px;
+        margin: 18px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #DFE2E5;
+    }
+    .learn_more{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 18px;
+        color: #DFE2E5;
+        border-bottom: 1px solid #DFE2E5;
+    }
+    .screen_12{
+        position: relative;
+        width: 100%;
+        height: 650px;
+        background-color: #C72A00;
+        margin: 0 auto;
+    }
+    .last_box{
+        position: absolute;
+        display: flex;
+        margin-top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .last1{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        margin-right: 10px;
+    }
+    .last2{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        margin-right: 10px;
+    }
+    .last3{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        margin-right: 10px;
+    }
+    .last4{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        margin-right: 10px;
+    }
+    .last5{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+    }
+    .last6{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        display: none ;
+    }
+    .last7{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        display: none;
+    }
+    .last8{
+        width: auto;
+        height: auto;
+        max-width: 63px;
+        display: none;
+    }
+    .last_strip {
+        background-color: #FFFCDA;
+        width: 90%;
+        height: 1px;
+        position: absolute;
+        bottom: 445px;
+        margin: 20px;
+    }
+    .sign_up{
+        position: absolute;
+        bottom: 450px;
+        margin: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 24px;
+        color: #FFFCDA;
+    }
+    .submit{
+        position: absolute;
+        left: 20px;
+        bottom: 440px;
+        font-family: Roboto, Serif, serif;
+        font-size: 20px;
+        color: #FFFCDA;
+    }
+    .logo{
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+    }
+    .info_box_1{
+        position: absolute;
+        left: 20px;
+        bottom: 250px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+    .info_box_2{
+        position: absolute;
+        left: 20px;
+        bottom: 350px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
+    }
+    .copyright{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        font-family: Roboto, Serif, serif;
+        font-size: 15px;
+        color: #FFFCDA;
     }
 }
