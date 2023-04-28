@@ -527,8 +527,9 @@
     }
 }
 @media screen and (max-width: 480px) {
-    body {
+    body, html {
         margin: 0;
+        overflow-x: hidden;
     }
     .screen_1 {
         position: relative;
@@ -571,8 +572,8 @@
         top: 20px;
         left: 50%;
         transform: translateX(-50%);
-        height: 105px;
-        width: 340px;
+        height: 35%;
+        width: 95%;
         z-index: 3;
     }
 
@@ -589,7 +590,7 @@
         position: absolute;
         right: 0;
         top: 270px;
-        width: 342px;
+        width: 80%;
         height: 305px;
         background-color: #B4A139;
         z-index: 2;
@@ -653,14 +654,14 @@
         text-align: right;
         color: #FFFCDA;
         position: absolute;
-        left: 217px;
+        right: 0;
         margin: 8px;
         border: 0;
         background-color: transparent;
         z-index: 5;
     }
     input[type="email"] {
-        width: 220px;
+        width: 60%;
     }
 
     .text1 {
@@ -670,7 +671,7 @@
         color: #C72A00;
         margin: 15px;
         position: absolute;
-        bottom: 140px;
+        bottom: 143px;
         z-index: 2;
     }
 
@@ -704,9 +705,9 @@
     .screen_2 {
         position: relative;
         width: 100%;
-        height: 140px;
         background-color: #FFFCDA;
         margin: 0 auto;
+        overflow: hidden;
     }
 
     .intro_text {
@@ -714,16 +715,15 @@
         font-size: 18px;
         color: #C72A00;
         text-align: justify;
-        position: absolute;
-        margin: 10px;
+        margin: 2%;
     }
 
     .screen_3 {
         position: relative;
         width: 100%;
-        height: 80px;
         background-color: #FFFCDA;
         margin: 0 auto;
+        overflow: hidden;
     }
 
     .collection {
@@ -856,7 +856,7 @@
         top: 30px;
         left: 50%;
         transform: translateX(-50%);
-        width: 340px;
+        width: 100%;
     }
     .screen_8{
         position: relative;
@@ -1002,12 +1002,9 @@
     .screen_11{
         position: relative;
         width: 100%;
-        height: 700px;
         background-color: #447CF0;
         margin: 0 auto;
-    }
-    .future{
-        position: absolute;
+        overflow: hidden;
     }
     .future_img{
         width: auto;
@@ -1015,28 +1012,19 @@
         max-width: 100%;
     }
     .sustainability{
-        position: absolute;
-        left: 0;
-        bottom: 210px;
         margin: 18px;
         font-family: Roboto, Serif, serif;
         font-size: 20px;
         color: #DFE2E5;
     }
     .sustainability_text{
-        position: absolute;
-        left: 0;
-        bottom: 45px;
         margin: 18px;
         font-family: Roboto, Serif, serif;
         font-size: 15px;
         color: #DFE2E5;
     }
     .learn_more{
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        margin: 20px;
+        margin: 18px;
         font-family: Roboto, Serif, serif;
         font-size: 18px;
         color: #DFE2E5;
