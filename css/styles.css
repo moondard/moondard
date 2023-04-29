@@ -45,7 +45,7 @@
         top: 5%;
         left: 50%;
         transform: translateX(-50%);
-        z-index: 3;
+        z-index: 2;
     }
 
     .girl__1 {
@@ -62,7 +62,7 @@
         width: 599.5px;
         height: 313px;
         background-color: #B4A139;
-        z-index: 2;
+        z-index: 3;
     }
 
     .close_button {
@@ -212,6 +212,7 @@
         position: absolute;
         top: 0;
         left: 315px;
+        width: 373px;
     }
     .vinyl_text{
         display: flex;
@@ -224,6 +225,7 @@
         top: 0;
         right: 20px;
         margin-left: 20px;
+        width: 472px;
     }
     .sonos_text{
         display: flex;
@@ -250,6 +252,7 @@
     .console {
         position: absolute;
         margin: 20px;
+        width: 472px;
     }
     .console_text{
         display: flex;
@@ -261,6 +264,7 @@
         position: absolute;
         right: 217px;
         margin: 20px;
+        width: 373px;
     }
     .mcintosh_text{
         display: flex;
@@ -280,6 +284,7 @@
         position: absolute;
         right: 20px;
         top: 20px;
+        width: 570px;
     }
     .audio_text{
         display: flex;
@@ -374,13 +379,13 @@
     }
     .bestsellers_photos1{
         position: absolute;
-        right: 0;
+        left: 40px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
-    .paragraph{
-        margin-left: 300px;
+    .best1{
+        margin-left: 280px;
     }
     .photo_caption{
         margin: 0;
@@ -574,7 +579,7 @@
         transform: translateX(-50%);
         height: 35%;
         width: 95%;
-        z-index: 3;
+        z-index: 2;
     }
 
     .girl__1 {
@@ -593,7 +598,7 @@
         width: 80%;
         height: 305px;
         background-color: #B4A139;
-        z-index: 2;
+        z-index: 3;
     }
 
     .close_button {
@@ -671,7 +676,7 @@
         color: #C72A00;
         margin: 15px;
         position: absolute;
-        bottom: 143px;
+        top: 635px;
         z-index: 2;
     }
 
@@ -685,7 +690,7 @@
         height: 160px;
         position: absolute;
         z-index: 2;
-        bottom: 17px;
+        top: 635px;
         right: 0;
     }
 
@@ -736,7 +741,7 @@
     .screen_4 {
         position: relative;
         width: 100%;
-        height: 1150px;
+        height: 1100px;
         background-color: #FFFCDA;
         margin: 0 auto;
     }
@@ -779,13 +784,13 @@
     .screen_5 {
         position: relative;
         width: 100%;
-        height: 1220px;
+        height: 1170px;
         background-color: #FFFCDA;
         margin: 0 auto;
     }
     .console {
         position: absolute;
-        margin: 10px;
+        margin: 30px 0 0 10px;
         width: 293px;
     }
     .console_text{
@@ -819,7 +824,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        margin: 10px;
+        margin: 20px 0 0 10px;
         width: 293px;
     }
     .audio_text{
@@ -856,7 +861,7 @@
         top: 30px;
         left: 50%;
         transform: translateX(-50%);
-        width: 100%;
+        width: 95%;
     }
     .screen_8{
         position: relative;
@@ -934,41 +939,12 @@
         color: #447CF0;
         width: 170px;
     }
-    .best1{
+    .best_img{
         width: auto;
         height: auto;
         max-width: 170px;
     }
-    .best2{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
-    .best3{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
-    .best4{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
-    .best5{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
-    .best6{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
-    .best7{
-        width: auto;
-        height: auto;
-        max-width: 170px;
-    }
+
     .screen_10{
         position: relative;
         width: 100%;
