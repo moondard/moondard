@@ -1,6 +1,6 @@
 document.querySelector('.close_button').onclick = closeBlock;
 function closeBlock () {
-    let block = document.querySelector('.email');
+    let block = document.querySelector('.page-1__modal-email');
     if (!block) {
         return;
     }
@@ -18,13 +18,13 @@ function onEntry(entry) {
 }
 let options = { threshold: [0.5] };
 let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll('.anim_scroll');
+let elements = document.querySelectorAll('.animation-in');
 for (let elm of elements) {
     observer.observe(elm);
 }
 
-let sliderImages = document.querySelectorAll(".slide"),
-    sliderText = document.querySelectorAll(".slide_text"),
+let sliderImages = document.querySelectorAll(".slider__slide"),
+    sliderText = document.querySelectorAll(".slider__item-text"),
     arrowLeft = document.querySelector("#arrow-left"),
     arrowRight = document.querySelector("#arrow-right"),
     current = 0;
@@ -73,7 +73,7 @@ arrowRight.addEventListener("click", function () {
 startSlide();
 
 let text = ["Gizmodo", "Interior Design", "Architectural Digest"];
-let sliderQuotes = document.querySelectorAll(".gizmodo_quote")
+let sliderQuotes = document.querySelectorAll(".quotes-quote")
 let elem = document.getElementById("changeText");
 const arr = [].slice.call(sliderQuotes);
 let counter = 0;
