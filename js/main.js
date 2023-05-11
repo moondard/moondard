@@ -1,6 +1,6 @@
-document.querySelector('.close_button').onclick = closeBlock;
+document.querySelector('.button_close').onclick = closeBlock;
 function closeBlock () {
-    let block = document.querySelector('.page-1__modal-email');
+    let block = document.querySelector('.modal-email');
     if (!block) {
         return;
     }
@@ -73,13 +73,13 @@ arrowRight.addEventListener("click", function () {
 startSlide();
 
 let text = ["Gizmodo", "Interior Design", "Architectural Digest"];
-let sliderQuotes = document.querySelectorAll(".quotes-quote")
+let sliderQuotes = document.querySelectorAll(".quotes__quote")
 let elem = document.getElementById("changeText");
 const arr = [].slice.call(sliderQuotes);
 let counter = 0;
 reset_text();
 start_text();
-let inst = setInterval(change, 4000);
+let inst = setInterval(change, 1500);
 function reset_text() {
     for (let i = 0; i < sliderImages.length; i++) {
         arr[i].style.display = "none";
