@@ -155,18 +155,17 @@ input[type="submit"].modal-email__form-submit:hover{
         background-color: #B4A139;
         z-index: 3;
     }
-    
     .modal-email__form {
-    position: absolute;
-    bottom: 40px;
-    left: 25px;
-    font-family: Roboto, Serif, serif;
-    font-size: 34px;
-    color: #FFFCDA;
+        position: absolute;
+        bottom: 40px;
+        left: 25px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
     }
     .modal-email__form-strip {
         background-color: #FFFCDA;
-        width: 302px;
+        width: 90%;
         height: 1px;
         position: absolute;
         bottom: 0;
@@ -178,7 +177,7 @@ input[type="submit"].modal-email__form-submit:hover{
         font-size: 24px;
         color: #FFFCDA;
     }
-    
+
     .modal-email__form-submit {
         font-family: Roboto, Serif, serif;
         font-size: 25px;
@@ -191,8 +190,8 @@ input[type="submit"].modal-email__form-submit:hover{
         background-color: transparent;
         z-index: 5;
     }
-    input[type="email"] {
-        width: 60%;
+    input[type="email"].modal-email__form-input {
+        width: 70%;
     }
 
     .shop-category {
@@ -595,7 +594,7 @@ input[type="submit"].modal-email__form-submit:hover{
         margin: 20px;
     }
 
-    input[type="email"] {
+    input[type="email"].mailing__input {
         width: 80%;
     }
     .mailing__input{
@@ -695,16 +694,16 @@ input[type="submit"].modal-email__form-submit:hover{
         z-index: 3;
     }
     .modal-email__form {
-    position: absolute;
-    bottom: 40px;
-    left: 25px;
-    font-family: Roboto, Serif, serif;
-    font-size: 34px;
-    color: #FFFCDA;
+        position: absolute;
+        bottom: 40px;
+        left: 25px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
     }
     .modal-email__form-strip {
         background-color: #FFFCDA;
-        width: 302px;
+        width: 90%;
         height: 1px;
         position: absolute;
         bottom: 0;
@@ -728,8 +727,9 @@ input[type="submit"].modal-email__form-submit:hover{
         background-color: transparent;
         z-index: 5;
     }
-    input[type="email"] {
-        width: 60%;
+    input[type="email"].modal-email__form-input {
+        width: 70%;
+        min-width: 195px;
     }
 
     .shop-category {
@@ -1110,7 +1110,7 @@ input[type="submit"].modal-email__form-submit:hover{
         margin: 20px;
     }
 
-    input[type="email"] {
+    input[type="email"].mailing__input {
         width: 80%;
     }
     .mailing__input{
@@ -1210,16 +1210,17 @@ input[type="submit"].modal-email__form-submit:hover{
         z-index: 3;
     }
     .modal-email__form {
-    position: absolute;
-    bottom: 40px;
-    left: 25px;
-    font-family: Roboto, Serif, serif;
-    font-size: 34px;
-    color: #FFFCDA;
+        position: absolute;
+        bottom: 40px;
+        left: 25px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
+        width: 90%;
     }
     .modal-email__form-strip {
         background-color: #FFFCDA;
-        width: 302px;
+        width: 90%;
         height: 1px;
         position: absolute;
         bottom: 0;
@@ -1243,8 +1244,8 @@ input[type="submit"].modal-email__form-submit:hover{
         background-color: transparent;
         z-index: 5;
     }
-    input[type="email"] {
-        width: 60%;
+    input[type="email"].modal-email__form-input {
+        width: 70%;
     }
 
     .shop-category {
@@ -1623,12 +1624,12 @@ input[type="submit"].modal-email__form-submit:hover{
         margin: 10px;
     }
 
-    input[type="email"] {
-        width: 435px;
+    input[type="email"].mailing__input {
+        width: 80%;
     }
     .mailing__input{
         position: absolute;
-        bottom: 175px;
+        bottom: 170px;
         margin: 10px;
         font-family: Roboto, Serif, serif;
         color: #FFFCDA;
@@ -1736,12 +1737,12 @@ input[type="submit"].modal-email__form-submit:hover{
         z-index: 3;
     }
     .modal-email__form {
-    position: absolute;
-    bottom: 10px;
-    left: 25px;
-    font-family: Roboto, Serif, serif;
-    font-size: 34px;
-    color: #FFFCDA;
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        font-family: Roboto, Serif, serif;
+        font-size: 34px;
+        color: #FFFCDA;
     }
     .modal-email__form-strip {
         background-color: #FFFCDA;
@@ -2171,12 +2172,12 @@ input[type="submit"].modal-email__form-submit:hover{
         font-size: 34px;
         color: #FFFCDA;
     }
-    input[type="email"] {
-        width: 435px;
+    input[type="email"].mailing__input {
+        width: 900px;
     }
     .mailing__input{
         position: absolute;
-        bottom: 175px;
+        bottom: 170px;
         margin: 10px;
         font-family: Roboto, Serif, serif;
         color: #FFFCDA;
