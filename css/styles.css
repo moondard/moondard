@@ -259,14 +259,10 @@ input[type="submit"].modal-email__form-submit:hover{
 
     .page-4 {
         width: 100%;
-        height: 1100px;
         background-color: #FFFCDA;
     }
 
     .item-vinyl {
-        position: absolute;
-        top: 0;
-        left: 0;
         margin: 10px;
         width: 70%;
     }
@@ -277,9 +273,7 @@ input[type="submit"].modal-email__form-submit:hover{
         color: #C72A00;
     }
     .item-sonos {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+        float: right;
         margin: 10px;
         width: 70%;
     }
@@ -300,11 +294,9 @@ input[type="submit"].modal-email__form-submit:hover{
     }
     .page-5 {
         width: 100%;
-        height: 1170px;
         background-color: #FFFCDA;
     }
     .item-console {
-        position: absolute;
         margin: 30px 0 0 10px;
         width: 70%;
     }
@@ -315,9 +307,7 @@ input[type="submit"].modal-email__form-submit:hover{
         color: #C72A00;
     }
     .item-mcintosh {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+        float: right;
         margin: 10px;
         width: 70%;
     }
@@ -334,9 +324,6 @@ input[type="submit"].modal-email__form-submit:hover{
     }
 
     .item-audio {
-        position: absolute;
-        left: 0;
-        top: 0;
         margin: 20px 0 0 10px;
         width: 70%;
     }
@@ -1690,7 +1677,7 @@ input[type="submit"].modal-email__form-submit:hover{
         height: 800px;
         background-color: #FFFCDA;
     }
-    
+
     .buttons-header {
         display: flex;
         position: absolute;
@@ -1806,19 +1793,15 @@ input[type="submit"].modal-email__form-submit:hover{
 
     .page-2 {
         width: 1200px;
-        height: 260px;
         background-color: #FFFCDA;
     }
 
     .slogan {
         font-family: Roboto, Serif, serif;
         font-size: 37px;
-        line-height: 41px;
         color: #C72A00;
         text-align: justify;
-        position: absolute;
-        top: 40px;
-        left: 40px;
+        margin: 15px;
     }
     .page-3 {
         width: 1200px;
@@ -1836,7 +1819,7 @@ input[type="submit"].modal-email__form-submit:hover{
     }
     .page-4 {
         width: 1200px;
-        height: 773px;
+        height: 750px;
         background-color: #FFFCDA;
     }
 
